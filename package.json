@@ -1,0 +1,30 @@
+{
+  "name": "synchord",
+  "version": "1.0.0",
+  "main": "electron/main.js",
+  "description": "Project made for generating track for In- Ear Monitors",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "electron": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhinavSharma1503/SynChord.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbhinavSharma1503/SynChord/issues"
+  },
+  "homepage": "https://github.com/AbhinavSharma1503/SynChord#readme",
+  "devDependencies": {
+    "concurrently": "^10.0.4",
+    "electron": "^43.3.0",
+    "electron-builder": "^26.15.3",
+    "wait-on": "^9.1.0"
+  }
+}
